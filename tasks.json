@@ -1,0 +1,24 @@
+[
+  {
+    "label": "Make run",
+    "command": "make run",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "never",
+    "shell": "system",
+    "show_summary": true,
+    "show_output": true
+  },
+  {
+    "label": "Add Header",
+    "command": "add_header.sh $ZED_FILENAME $ZED_DIRNAME",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "never",
+    "hide": "on_success",
+    "shell": "system",
+    "show_summary": false,
+    "show_output": false
+  }
+]

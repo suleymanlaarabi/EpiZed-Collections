@@ -1,0 +1,10 @@
+{
+  "EPITECH HEADER": {
+    "prefix": "epi",
+    "body": [
+      "/*\n** EPITECH PROJECT, 2024\n** $1\n** File description:\n** $2\n*/",
+      "$0"
+    ],
+    "description": "Write epitech header"
+  }
+}
