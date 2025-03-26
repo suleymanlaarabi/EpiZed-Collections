@@ -10,7 +10,6 @@ fchar=$(echo "$result" | cut -d ' ' -f1)
 
 if [ "$fchar" != "0" ]; then
     value=$(echo "${content}" | head -n 1)
-    notify-send -t 4000 -u normal "${value}"
+    notify-send --icon=$HOME/.config/zed/assets/marvin.png -t 4000 -u normal "${value}"
     value="${value%:*}"
-    zed ${value%:*}
 fi
